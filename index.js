@@ -12,11 +12,11 @@ var app = {};
 
 app.init = () => {
   //Initializing server
-  server.init()
+  server.init();
 
   //Initializing workers
-  workers.init();
-}
+  //workers.init();
+};
 
 
 //Excicuting the whole Init
